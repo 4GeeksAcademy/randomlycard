@@ -1,1 +1,52 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+  box-sizing: border-box;
+}
+
+.card {
+  text-align: center;
+  justify-content: center;
+  background: white;
+  margin: auto;
+  height: 200px;
+  width: 250px;
+  padding: 20px;
+  padding-top: 180px;
+  position: relative;
+  font-size: 90px;
+}
+
+.top {
+  position: absolute;
+  top: 20px;
+  margin-left: 10px;
+  font-size: 80px;
+  color: red;
+}
+
+.bottom {
+  display: flex;
+  margin-bottom: 5px;
+  float: right;
+  margin-right: 10px;
+  font-size: 80px;
+  color: red;
+}
+
+&.spades {
+  content: "\2660";
+}
+
+&.clubs {
+  content: "\2663";
+}
+
+&.hearts {
+  content: "\2665 ";
+  color: red;
+}
+
+&.diams {
+  content: "\2666";
+  color: red;
+}
